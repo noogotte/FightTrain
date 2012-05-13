@@ -1,0 +1,21 @@
+name: FightTrain
+version: 1.0.0
+description: A plugin for fight.
+author: noogotte
+main: fr.noogotte.fight_train.FightTrain
+
+commands:
+    fight_train:
+        description: "Commande principale."
+        usage: "init | start | stop"
+    "fight_train init":
+        description: "Lance une partie"
+        usage: ""
+        permission: "fight_train.init"
+        aliases: ["init"]
+		
+    "fight_train join":
+        description: "Rejoin une partie"
+        usage: ""
+        permission: "fight_train.join"
+        aliases: ["join"]
